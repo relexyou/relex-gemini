@@ -14,12 +14,21 @@ Downstream of the shared Relex MCP server. Base package:
 [GPT](https://github.com/relexyou/relex-gpt) ·
 [Grok](https://github.com/relexyou/relex-grok).
 
+## Official Google / Gemini names
+
+| Surface | Product calls it |
+|---------|------------------|
+| **Gemini CLI** | **MCP server** (`gemini mcp add`, `mcpServers` in settings) |
+| **Gemini Enterprise** | **Custom MCP Server** (data store / connector) |
+| Personal Gemini web chat | Usually **no** arbitrary custom MCP — use CLI or Enterprise |
+
+Always name **`relex`**, URL `https://relex.you/api/mcp` (Streamable HTTP).
+
 ## How it works
 
-Gemini connects to `https://relex.you/api/mcp` over **Streamable HTTP** MCP.
-Two tools — `search` and `execute`. Auth: **OAuth discovery** (browser) when
-using Gemini CLI / compatible hosts, or **API key header** for headless /
-Enterprise wiring.
+Gemini connects over **Streamable HTTP** MCP. Tools: `search`, `execute`.
+Auth: **`/mcp auth relex`** (browser OAuth) on CLI, or **API key** / Enterprise
+IdP wiring as configured by admin.
 
 ## Quick start — Gemini CLI
 
