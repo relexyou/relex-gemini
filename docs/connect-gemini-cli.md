@@ -1,7 +1,7 @@
 # Connect Relex to Gemini CLI
 
 ```bash
-gemini mcp add --transport http relex https://relex.you/api/mcp
+gemini mcp add --transport http relex https://relex.legal/api/mcp
 gemini mcp list
 ```
 
@@ -22,7 +22,7 @@ Then:
 {
   "mcpServers": {
     "relex": {
-      "httpUrl": "https://relex.you/api/mcp",
+      "httpUrl": "https://relex.legal/api/mcp",
       "timeout": 60000
     }
   }

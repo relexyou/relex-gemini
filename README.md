@@ -22,7 +22,7 @@ Downstream of the shared Relex MCP server. Base package:
 | **Gemini Enterprise** | **Custom MCP Server** (data store / connector) |
 | Personal Gemini web chat | Usually **no** arbitrary custom MCP — use CLI or Enterprise |
 
-Always name **`relex`**, URL `https://relex.you/api/mcp` (Streamable HTTP).
+Always name **`relex`**, URL `https://relex.legal/api/mcp` (Streamable HTTP).
 
 ## How it works
 
@@ -33,7 +33,7 @@ IdP wiring as configured by admin.
 ## Quick start — Gemini CLI
 
 ```bash
-gemini mcp add --transport http relex https://relex.you/api/mcp
+gemini mcp add --transport http relex https://relex.legal/api/mcp
 ```
 
 List status:
@@ -60,7 +60,7 @@ User config `~/.gemini/settings.json` or project `.gemini/settings.json`:
 {
   "mcpServers": {
     "relex": {
-      "httpUrl": "https://relex.you/api/mcp"
+      "httpUrl": "https://relex.legal/api/mcp"
     }
   }
 }
@@ -72,7 +72,7 @@ With API key:
 {
   "mcpServers": {
     "relex": {
-      "httpUrl": "https://relex.you/api/mcp",
+      "httpUrl": "https://relex.legal/api/mcp",
       "headers": {
         "Authorization": "Bearer rlx_..."
       }
@@ -94,7 +94,7 @@ With API key:
 ### Gemini Enterprise (admin)
 
 1. Deploy or point at the **hosted** Relex URL (no need to re-host unless
-   required by network policy): `https://relex.you/api/mcp`.
+   required by network policy): `https://relex.legal/api/mcp`.
 2. In Gemini Enterprise / Agent Builder, add a **Custom MCP Server** connector
    with that URL.
 3. Configure OAuth / IdP per Google’s custom MCP docs.
@@ -127,11 +127,11 @@ relex-gemini/
 └── SECURITY.md
 ```
 
-## Docs on relex.you
+## Docs on relex.legal
 
-- [Gemini connector](https://relex.you/docs/connectors/gemini)
-- [MCP Server](https://relex.you/docs/mcp)
-- [For AI Agents](https://relex.you/for-agents)
+- [Gemini connector](https://relex.legal/docs/connectors/gemini)
+- [MCP Server](https://relex.legal/docs/mcp)
+- [For AI Agents](https://relex.legal/for-agents)
 
 ## License
 

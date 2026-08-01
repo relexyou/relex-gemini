@@ -3,7 +3,7 @@
 **MCP URL:**
 
 ```
-https://relex.you/api/mcp
+https://relex.legal/api/mcp
 ```
 
 ## Gemini CLI (personal / developer)
@@ -12,7 +12,7 @@ https://relex.you/api/mcp
 2. Add Relex:
 
    ```bash
-   gemini mcp add --transport http relex https://relex.you/api/mcp
+   gemini mcp add --transport http relex https://relex.legal/api/mcp
    ```
 
 3. Verify:
@@ -38,7 +38,7 @@ API-key fallback:
 ```bash
 gemini mcp add --transport http \
   --header "Authorization: Bearer rlx_..." \
-  relex https://relex.you/api/mcp
+  relex https://relex.legal/api/mcp
 ```
 
 Create the key in Relex → **Settings → API Keys**.
@@ -47,9 +47,9 @@ Create the key in Relex → **Settings → API Keys**.
 
 ### Admin
 
-1. Confirm network egress to `https://relex.you` is allowed.
+1. Confirm network egress to `https://relex.legal` is allowed.
 2. In Gemini Enterprise (or Vertex AI Agent Builder / custom MCP data store),
-   create a **Custom MCP Server** pointing at `https://relex.you/api/mcp`.
+   create a **Custom MCP Server** pointing at `https://relex.legal/api/mcp`.
 3. Configure OAuth per Google’s custom MCP documentation (redirect URLs, client
    registration with your IdP if required).
 4. Grant the application to the right users/groups.

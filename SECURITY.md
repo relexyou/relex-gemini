@@ -4,7 +4,7 @@ Relex lets you use Gemini on legal matters **without exposing client PII**.
 
 ## Authentication
 
-- MCP: `https://relex.you/api/mcp`
+- MCP: `https://relex.legal/api/mcp`
 - OAuth via Gemini CLI `/mcp auth` or Enterprise-configured OAuth
 - API key fallback: Relex **Settings → API Keys**
 
@@ -15,4 +15,4 @@ Relex lets you use Gemini on legal matters **without exposing client PII**.
 
 ## Reporting
 
-**security@relex.you**
+**security@relex.legal**
