@@ -9,10 +9,10 @@ receiving PII**.
 > [`docs/positioning.md`](docs/positioning.md).
 
 Downstream of the shared Relex MCP server. Base package:
-[relexyou/relex-mcp](https://github.com/relexyou/relex-mcp). Sibling connectors:
-[Claude](https://github.com/relexyou/relex-claude) ·
-[GPT](https://github.com/relexyou/relex-gpt) ·
-[Grok](https://github.com/relexyou/relex-grok).
+[relexlegal/relex-mcp](https://github.com/relexlegal/relex-mcp). Sibling connectors:
+[Claude](https://github.com/relexlegal/relex-claude) ·
+[GPT](https://github.com/relexlegal/relex-gpt) ·
+[Grok](https://github.com/relexlegal/relex-grok).
 
 ## Official Google / Gemini names
 
